@@ -1,0 +1,267 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/*navigation start*/
+
+
+nav ul li {
+	padding: 0px 10px;
+}
+
+
+
+/*navigation end*/
+
+
+
+
+
+
+
+
+/*homeslider start*/
+
+
+#showcase .carousel-item{
+	height: 450px;
+}
+
+
+
+#showcase .carousel-img-1{
+	background: url('image1.jpeg');
+	background-size: cover;
+}
+
+
+#showcase .carousel-img-2{
+	background: url('image2.jpeg');
+	background-size: cover;
+}
+
+
+#showcase .carousel-img-3{
+	background: url('image3.jpeg');
+	background-size: cover;
+}
+
+
+/*homeslider end*/
+
+
+
+/*get started  start*/
+
+
+#getstarted{
+	background: url('bg1.jpeg') ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: relative;
+	min-height: 250px;
+}
+
+
+#getstarted .dark-overlay{
+	background: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+
+
+/*get started  end*/
+
+
+
+
+
+/*bootstrap course  start*/
+
+#course{
+	background: url('people.jpeg');
+	background-attachment: fixed;
+	background-size: cover; 
+	background-repeat: no-repeat;
+	min-height: 250px;
+	position: relative;
+} 
+
+
+#course .dark-overlay{
+	background: rgba(0, 0, 0, 0.7);
+	min-height: 250px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+
+#course .fas{
+	font-size: 50px;
+	color: red;
+	margin-bottom: 15px;
+}
+
+
+/*bootstrap course end*/
+
+
+
+
+/*gallery start*/
+
+
+#gallery img{
+	min-height: 300px;
+	margin-bottom: 30px;
+}
+
+
+
+/*gallery end*/
+
+
+
+
+
+
+/*about  start*/
+
+
+#aboutinfo{
+	background: url('image1.jpeg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#wedo img{
+	width: 350px;
+	height: 350px;
+}
+
+
+
+/*about end*/
+
+
+
+
+/*about card start*/
+
+
+#singlecard .fas{
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+
+
+
+#singlecard .fab{
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+/*about card end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px){
+
+	 #showcase h1{
+		font-size: 2.5rem;
+	 }
+	 
+	 #getstarted{
+		 min-height: 350px;
+	 }
+
+}
+
+
+@media(max-width: 576px){
+
+	 #getstarted{
+		 min-height: 400px;
+	 }
+
+}
+
+
+
+@media(max-width: 768px){
+
+	 #homeinfo .btn{
+		margin-bottom: 15px;
+	 }
+
+}
+
+
+
+@media(max-width: 768px){
+
+	 #gallery .img{
+		margin-bottom: 30px;
+	 }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
